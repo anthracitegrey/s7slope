@@ -366,7 +366,7 @@ END_FUNCTION_BLOCK
       function headcomment () {
         var result;
         result = '//Slope filter as folded FIR\n//Generated with '
-          + window.location.pathname.replace(/\//g, '/<wbr>');
+          + window.location.href;
         return result;
       }
       RegEx_Float = new RegExp('(\\W)([-+]?(?:\\d*\\.?\\d+|\\d+\\.?\\d*)(?:[eE][-+]?\\d+)?)\\b', 'g');
